@@ -40,12 +40,14 @@
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.6.1",
-    "composer/installers": "v1.0.25"
+    "composer/installers": "v1.0.25",
+    "wpackagist-plugin/simple-page-ordering": "2.2.4"
   },
   "extra": {
     "installer-paths": {
       "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "app/plugins/{$name}/": ["type:wordpress-plugin"],
+
       "./": ["type:wordpress-theme"]
     },
     "wordpress-install-dir": "wp"
