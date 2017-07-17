@@ -1,3 +1,0 @@
-<?php
-
-  get_template_part( 'templates/sidebar/_sidebar-main' );
